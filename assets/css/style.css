@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
+
+:root {
+  --main-color: #be9c79;
+  --black: #333;
+  --white: #fff;
+  --light-color: #666;
+  --border: 0.2rem solid var(--black);
+  --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+html {
+  font-size: 55%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6.5rem;
+  z-index: 1000;
+}
+
+/*  header section start */
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--white);
+  box-shadow: var(--box-shadow);
+}
+
+section {
+  /* chieu dai section bang 1200px */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.header .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 1.5rem 2rem;
+}
+
+.header .flex .logo img {
+  height: 5.5rem; /*Chiều cao ảnh */
+}
+
+.header .flex .navbar a {
+  font-size: 2.3rem;
+  margin-left: 3rem;
+  color: var(--black);
+}
+
+.header .flex .navbar a:hover {
+  text-decoration: underline;
+  color: var(--main-color);
+}
+
+.header .flex i {
+  font-size: 2.5rem;
+  color: var(--black);
+  padding-left: 30px;
+  padding-right: 30px;
+  border-left: 1px ridge #be9c79;
+  border-right: 1px ridge #be9c79;
+}
+
+.header .flex i:hover {
+  /* text-decoration: underline; */
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+/*  header section end   */
+/*  home section start   */
+.home-bg {
+  background: linear-gradient(70deg, var(--white), transparent 70%),
+    url(../image/bachground6.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-bg .home {
+  min-height: 80rem;
+  display: flex;
+  align-items: center;
+}
+
+.home-bg .home .content {
+  width: 50rem; /*Chiều dài của đoạn văn*/
+  text-align: center;
+}
+
+.home-bg .home .content h3 {
+  font-size: 8rem;
+  color: var(--black);
+  font-family: "Merienda One", cursive;
+}
+
+.home-bg .home .content p {
+  padding: 1rem 0;
+  font-size: 1.6rem;
+  color: var(--black);
+  line-height: 2;
+  text-transform: capitalize;
+}
+
+.home-bg .home .content a {
+  font-size: 1.8rem;
+  color: var(--white);
+  background-color: var(--main-color);
+  padding: 1rem 2.5rem;
+}
+
+.home-bg .home .content a:hover {
+  background-color: var(--black);
+}
+/*  home section end   */
+
+.about {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.about .image {
+  flex: 1 1 40rem;
+}
+
+.about .image img {
+  width: 100%;
+}
+
+.about .content {
+  flex: 1 1 40rem;
+}
+
+.about .content h3 {
+  font-size: 5rem;
+  color: var(--black);
+  font-family: "Merienda One", cursive;
+}
+.about .content p {
+  padding: 3rem 0;
+  font-size: 1.6rem;
+  color: var(--black);
+  line-height: 2;
+  text-transform: capitalize;
+}
+
+.about .content a {
+  font-size: 1.8rem;
+  color: var(--white);
+  background-color: var(--main-color);
+  padding: 1rem 2.5rem;
+}
+
+.about .content a:hover {
+  background-color: var(--black);
+}
+
+.hehe {
+  background-color: aqua;
+  height: 1000px;
+  width: 100%;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.heading img {
+  height: 4rem;
+  margin-bottom: 1rem;
+}
+
+.heading h3 {
+  font-size: 6rem;
+  color: var(--black);
+  font-family: "Merienda One", cursive;
+}
+
+.book .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30rem);
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.book .box-container .box {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.book .box-container .box img {
+  height: 30rem;
+  margin-bottom: 1rem;
+}
+
+.book .box-container .box a {
+  font-size: 2rem;
+  color: var(--black);
+  margin: 1rem 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.book .box-container .box a:hover {
+  text-decoration: underline;
+  color: var(--main-color);
+}

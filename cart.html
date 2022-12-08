@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/cart.css" />
+  </head>
+  <body>
+    <!-- header section start  -->
+    <header class="header">
+      <section class="flex">
+        <a href="#home" class="logo">
+          <img src="./assets/image/logoBook6.png" alt=""
+        /></a>
+        <nav class="navbar">
+          <a href="#home">home</a>
+          <a href="#about">about</a>
+          <a href="#book">books</a>
+          <a href="#contact">contact</a>
+        </nav>
+        <div>
+          <a href="#">
+            <i class="fa-sharp fa-solid fa-cart-shopping buy-btn"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-user"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+        </div>
+      </section>
+    </header>
+    <!-- header section end  -->
+
+    <!-- cart section start  -->
+    <div class="small-controller cart-page">
+      <table class="cart-table">
+        <tr class="cart-title">
+          <th>Product</th>
+          <th class="cart-quality">Quanlity</th>
+          <th class="cart-Subtotal">Subtotal</th>
+        </tr>
+
+        <tr class="cart-product">
+          <td>
+            <div class="cart-info">
+              <img src="./assets/image/B1.jpg" alt="" />
+              <div class="cart-desciption">
+                <p>Đắc nhân tâm</p>
+                <small>Price: $90.00</small>
+                <!-- <br /> -->
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td class="cart-money">$90.00</td>
+        </tr>
+
+        <tr class="cart-product">
+          <td>
+            <div class="cart-info">
+              <img src="./assets/image/B2.jpg" alt="" />
+              <div class="cart-desciption">
+                <p>Đắc nhân tâm</p>
+                <small>Price: $90.00</small>
+                <!-- <br /> -->
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td class="cart-money">$90.00</td>
+        </tr>
+
+        <tr class="cart-product">
+          <td>
+            <div class="cart-info">
+              <img src="./assets/image/B3.jpg" alt="" />
+              <div class="cart-desciption">
+                <p>Đắc nhân tâm</p>
+                <small>Price: $90.00</small>
+                <!-- <br /> -->
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td class="cart-money">$90.00</td>
+        </tr>
+      </table>
+
+      <div class="total-price">
+        <table class="cart-table">
+          <tr>
+            <td style="font-size: 16px">Subtotal</td>
+            <td class="cart-money">$270.00</td>
+          </tr>
+
+          <tr>
+            <td style="font-size: 16px">Tax</td>
+            <td class="cart-money">$30.00</td>
+          </tr>
+
+          <tr>
+            <td style="font-size: 16px">Total</td>
+            <td class="cart-money">$300.00</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- cart section end  -->
+  </body>
+</html>
