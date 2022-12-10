@@ -1,0 +1,97 @@
+.cart-page {
+  margin: 80px auto;
+  width: 1200px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* text-align: center; */
+  /* flex-direction: column; */
+}
+
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+.cart-table {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+  /* text-align: center; */
+}
+
+.cart-title {
+  background: #ff523b;
+}
+
+th {
+  text-align: left;
+  padding: 5px;
+  color: #fff;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+td {
+  padding: 10px 5px;
+}
+td input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+
+.cart-info img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.cart-desciption p {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.cart-desciption small {
+  font-size: 14px;
+  /* margin-bottom: 10px; */
+}
+
+.cart-desciption a {
+  font-size: 14px;
+  color: #ff523b;
+  padding-top: 8px;
+  display: block;
+}
+
+.cart-money {
+  font-size: 16px;
+  /* width: 200px; */
+  text-align: center;
+}
+
+.cart-quality {
+  width: 200px;
+  text-align: center;
+}
+.cart-Subtotal {
+  width: 140px;
+  text-align: center;
+}
+
+.total-price {
+  width: 350px;
+  float: right;
+  margin-right: 160px;
+  /* padding-left: 20px; */
+  display: flex;
+  /* justify-content: flex-end; */
+  border-top: 3px solid #ff523b;
+}
+
+.total-price tr {
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+  /* justify-content: center; */
+}
